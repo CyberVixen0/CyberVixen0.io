@@ -1,0 +1,65 @@
+body{
+    background-color: black;
+}
+header{
+    margin-top: 30px;
+    text-align: center;
+}
+.titulo{
+    color: white;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.container{
+    height: 70vh;
+}
+.flex,p{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.profile-options{
+    flex-direction: row;
+}
+.profile{
+    width: 170px;
+    height: 170px;
+    margin: 0 10px;
+    background-color: #0f0f0f;
+    border-radius: 8px;
+    border: 3px solid transparent;
+    cursor: pointer;
+}
+.profile img{
+    border-radius: 6px;
+    width: 100%;
+    height: 100%;
+}
+.profile .logo-add{
+    object-fit: none;
+    opacity: 0.4;
+}
+.nome{
+    font-size: 20px;
+    color:rgba(255, 255, 255, 0.4);
+}
+
+.profile:hover {
+    border-color: white; 
+}
+
+.profile:hover .nome {
+    color: white;
+}
+button{
+    color: white;
+    background-color: black;
+    padding: 10px 25px;
+    border-radius: 5px;
+    border: 3px solid white;
+}
+button:hover{
+    background-color: white;
+    color: black;
+}
